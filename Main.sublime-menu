@@ -1,0 +1,34 @@
+[
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Pawn Compiler Settings",
+            "mnemonic": "P",
+            "children":
+            [
+              {
+                "caption": "Generate Build Settings File",
+                "command": "pawn_build_path"
+              },
+              {
+                "caption": "Edit Build Settings (Pawn.sublime-build)",
+                "command": "open_file",
+                "args": {"file": "${packages}/User/Pawn.sublime-build"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
